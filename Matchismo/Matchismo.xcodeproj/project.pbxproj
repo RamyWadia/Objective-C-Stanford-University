@@ -111,8 +111,7 @@
 				581E4978292AB301007BE240 /* ViewController.m */,
 				581E497A292AB301007BE240 /* Main.storyboard */,
 				581E49A6292AB32F007BE240 /* Support */,
-				581E49AA292AB4A3007BE240 /* Card.m */,
-				581E49AC292AB4BA007BE240 /* Card.h */,
+				581E49AE292AD91D007BE240 /* Card */,
 			);
 			path = Matchismo;
 			sourceTree = "<group>";
@@ -137,16 +136,33 @@
 		581E49A6292AB32F007BE240 /* Support */ = {
 			isa = PBXGroup;
 			children = (
+				581E49AD292AD8ED007BE240 /* SupportFolder */,
+				581E4982292AB303007BE240 /* Info.plist */,
+			);
+			name = Support;
+			sourceTree = "<group>";
+		};
+		581E49AD292AD8ED007BE240 /* SupportFolder */ = {
+			isa = PBXGroup;
+			children = (
 				581E4971292AB301007BE240 /* AppDelegate.h */,
 				581E4972292AB301007BE240 /* AppDelegate.m */,
 				581E4974292AB301007BE240 /* SceneDelegate.h */,
 				581E4975292AB301007BE240 /* SceneDelegate.m */,
 				581E497D292AB303007BE240 /* Assets.xcassets */,
 				581E497F292AB303007BE240 /* LaunchScreen.storyboard */,
-				581E4982292AB303007BE240 /* Info.plist */,
 				581E4983292AB303007BE240 /* main.m */,
 			);
-			name = Support;
+			path = SupportFolder;
+			sourceTree = "<group>";
+		};
+		581E49AE292AD91D007BE240 /* Card */ = {
+			isa = PBXGroup;
+			children = (
+				581E49AA292AB4A3007BE240 /* Card.m */,
+				581E49AC292AB4BA007BE240 /* Card.h */,
+			);
+			path = Card;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
