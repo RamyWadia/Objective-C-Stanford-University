@@ -5,13 +5,13 @@
 //  Created by Ramy Atalla on 2022-11-20.
 //
 
-#import "ViewController.h"
+#import "CardGameViewController.h"
 
-@interface ViewController ()
+@interface CardGameViewController ()
 
 @end
 
-@implementation ViewController
+@implementation CardGameViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
