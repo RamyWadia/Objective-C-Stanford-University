@@ -13,6 +13,9 @@
 
 @implementation Deck
 
+// Notice: [NSMutableArray new]; is the same like
+// [[NSMutableArray alloc] init];
+// but it was issued after this course was released. 
 -(NSMutableArray *)cards {
     if (!_cards) _cards = [NSMutableArray new]; // lazy instantiation
     return _cards;

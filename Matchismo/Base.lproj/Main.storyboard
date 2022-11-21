@@ -30,7 +30,7 @@
                                 </constraints>
                                 <fontDescription key="fontDescription" name=".SFNS-Regular" family=".SF NS" pointSize="51"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                <state key="normal" title="A♣︎" backgroundImage="card front">
+                                <state key="normal" backgroundImage="card back">
                                     <color key="titleColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                 </state>
                                 <connections>
@@ -59,7 +59,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="card front" width="64" height="96"/>
+        <image name="card back" width="64" height="96"/>
         <systemColor name="systemGreenColor">
             <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
