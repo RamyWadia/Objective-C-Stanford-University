@@ -5,8 +5,8 @@
 //  Created by Ramy Atalla on 2022-11-21.
 //
 
-#ifndef PlayingCardDeck_h
-#define PlayingCardDeck_h
+#import "Deck.h"
 
+@interface PlayingCardDeck : Deck
 
-#endif /* PlayingCardDeck_h */
+@end
