@@ -9,9 +9,26 @@
 
 @implementation PlayingCard
 
+// overriding match method to with easier conditions to make game playable.
+// we override it here as OOP people says you should not
+// know that we have overridden it.
+-(int)match:(NSArray *)otherCards {
+    int score = 0;
+    if ([otherCards count] == 1) {
+        //[otherCards[0]] but this one crashes of the array is empty
+        //[otherCards firstObject]; returns nil if the array is empty.
+        //next line is not really needed as we checked [otherCards count] ==1
+        PlayingCard *othercard = [otherCards firstObject];
+        if ([self.suit isEqualToString:othercard.suit]) {
+            score =1;
+        } else if (self.rank == othercard.rank) {
+            score = 4;
+        }
+    }
+    return score;
+}
+
 @synthesize suit = _suit; // because we provide the setter and getter.
-
-
 /*
  Notice that every string is a string object and the @ sign creates the object for you.
  */
